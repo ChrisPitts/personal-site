@@ -72,21 +72,16 @@
 	<section id="projects">
 		<h2>Projects</h2>
 		<div class="container">
-			<a href="#">
+			<RouterLink to="/projects/smaa">
 				
 					<figcaption>San Marcos Abortion Activists</figcaption>
 					<img src="../assets/smaa.png" />
 							
-			</a>
-            <a href="#">
-				
+			</RouterLink>
+            <RouterLink to="/projects/strikle">
 					<figcaption>Strikle</figcaption>
 					<img src="../assets/strikle.png" />
-				
-			</a>
-            <!-- <figure>
-                <figcaption>Island Irrigation</figcaption>
-            </figure> -->
+			</RouterLink>
 		</div>
 	</section>
 	<section id="contact">
@@ -117,7 +112,8 @@
 				box-shadow: 0 0 10px 5px white;
 				border-radius: 8px;
 				padding: 10px;
-				transition: transform 2s ease;
+				transition: transform 2s ease,
+					box-shadow 1s ease;
 
 				
 			}
