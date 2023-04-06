@@ -6,7 +6,7 @@
 		<h2>About Me</h2>
 		<p>
 			My name is Chris Pitts. I am a front end web developer based in San
-			Marcos, Texas. I have 10 years of programming experience and my goal is to make the web more accessible
+			Marcos, Texas. I have 10 years of programming experience and my goal is to make the web more accessible. I ensure that all websites I create are in compliant with the WCAG 2.1 Level AA standard.
 		</p>
 	</section>
 	<section id="audits">
@@ -72,15 +72,21 @@
 	<section id="projects">
 		<h2>Projects</h2>
 		<div class="container">
-			<figure>
-                <h3>San Marcos Abortion Activists</h3>
-            </figure>
-            <figure>
-                <h3>Strikle</h3>
-            </figure>
-            <figure>
-                <h3>Island Irrigation</h3>
-            </figure>
+			<a href="#">
+				
+					<figcaption>San Marcos Abortion Activists</figcaption>
+					<img src="../assets/smaa.png" />
+							
+			</a>
+            <a href="#">
+				
+					<figcaption>Strikle</figcaption>
+					<img src="../assets/strikle.png" />
+				
+			</a>
+            <!-- <figure>
+                <figcaption>Island Irrigation</figcaption>
+            </figure> -->
 		</div>
 	</section>
 	<section id="contact">
@@ -128,6 +134,46 @@
 
 		}
     }
+
+	#projects{
+		a{
+			background-color: white;
+			border: 5px solid white;
+			text-align: center;
+			width: 500px;
+			max-width: 80%;
+			padding: 0;
+			position: relative;
+			
+		}
+
+		img{
+			width: 100%;
+			aspect-ratio: 16/9;
+			margin: 0;
+			transition: opacity 500ms ease-in-out;
+			display: block;
+		}
+
+		figcaption{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+			color: black;
+		}
+
+		a:hover, a:focus{
+			img{
+				opacity: 0.3;
+			}
+
+			figcaption{
+				opacity: 1;
+			}
+		}
+	}
 
 	#contact form{
 
