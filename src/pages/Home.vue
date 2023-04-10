@@ -104,18 +104,17 @@
         
 		.card{
 
-			width: 200px;
 			margin: 10px;
+			width: 200px;
+			
 
 			&__content{
 				background-color: black;
-				box-shadow: 0 0 10px 5px white;
 				border-radius: 8px;
+				box-shadow: 0 0 10px 5px white;
 				padding: 10px;
 				transition: transform 2s ease,
 					box-shadow 1s ease;
-
-				
 			}
 
 			&:hover .card__content{
@@ -135,29 +134,29 @@
 		a{
 			background-color: white;
 			border: 5px solid white;
-			text-align: center;
-			width: 500px;
 			max-width: 80%;
 			padding: 0;
 			position: relative;
-			
+			text-align: center;
+			width: 500px;
 		}
 
 		img{
-			width: 100%;
 			aspect-ratio: 16/9;
+			display: block;
 			margin: 0;
 			transition: opacity 500ms ease-in-out;
-			display: block;
+			width: 100%;
 		}
 
 		figcaption{
+			color: black;
+			left: 50%;
+			opacity: 0;
 			position: absolute;
 			top: 50%;
-			left: 50%;
 			transform: translate(-50%, -50%);
-			opacity: 0;
-			color: black;
+			transition: opacity 500ms ease-in-out;
 		}
 
 		a:hover, a:focus{
@@ -173,9 +172,9 @@
 
 	#contact form{
 
-		width: 90%;
-		max-width: 800px;
 		margin: auto;
+		max-width: 800px;
+		width: 90%;
 
 		input, label, textarea{
 			width: 100%;
