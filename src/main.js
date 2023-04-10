@@ -10,8 +10,8 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {path: '/', name: 'Home', component: Home},
-        {path: '/projects/smaa', name: 'SMAA', component: SMAA},
-        {path: '/projects/strikle', name: 'Strikle', component: Strikle},
+        {path: '/smaa', name: 'SMAA', component: SMAA},
+        {path: '/strikle', name: 'Strikle', component: Strikle},
     ]
 })
 

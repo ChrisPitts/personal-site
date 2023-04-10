@@ -72,13 +72,13 @@
 	<section id="projects">
 		<h2>Projects</h2>
 		<div class="container">
-			<RouterLink to="/projects/smaa">
+			<RouterLink to="/smaa">
 				
 					<figcaption>San Marcos Abortion Activists</figcaption>
 					<img src="../assets/smaa.png" />
 							
 			</RouterLink>
-            <RouterLink to="/projects/strikle">
+            <RouterLink to="/strikle">
 					<figcaption>Strikle</figcaption>
 					<img src="../assets/strikle.png" />
 			</RouterLink>
