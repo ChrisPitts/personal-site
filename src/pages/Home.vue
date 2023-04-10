@@ -21,50 +21,70 @@
 					<h3>HTML</h3>
 					<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+					alt="HTML"
 					/>
 				</div>
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>CSS</h3>
-                	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                	<img 
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+					alt="CSS"
+					/>
 				</div>
 				
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>SASS</h3>
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+					<img 
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" 
+					alt="SASS"
+					/>
 				</div>
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>Javascript</h3>
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+					<img 
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+					alt="javascript"
+					/>
 				</div>
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>JQuery</h3>
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" />
+					<img 
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" 
+					alt="JQuery"
+					/>
 				</div>
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>React</h3>
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+					<img 
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+					alt="react"
+					/>
 				</div>
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>Vue</h3>
-					<img src="../assets/vue.svg" />
+					<img 
+					src="../assets/vue.svg" 
+					alt="vue"/>
 				</div>
 			</figure>
 			<figure class="card">
 				<div class="card__content">
 					<h3>Vite</h3>
-					<img src='../assets/vite.svg' />
+					<img 
+					src='../assets/vite.svg' 
+					alt="vite"/>
 				</div>
 			</figure>
 		</div>
