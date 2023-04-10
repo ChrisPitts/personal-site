@@ -16,6 +16,7 @@
     </section>
     <section id="links">
         <h2>Links</h2>
+        <a href="https://github.com/ChrisPitts/smaa-website" target="_blank" class="btn">Github Repo</a>
     </section>
     
     
