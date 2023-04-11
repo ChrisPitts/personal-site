@@ -13,6 +13,8 @@
     </section>
     <section id="description">
         <h2>Project Description</h2>
+        <p>San Marcos Abortion Activists(SMAA) is a mutual aid and advocacy organization in San Marcos, TX, dedicated to assisting people seeking in need of reproductive healthcare products and services, and fighting against the state's restrictions on reproductive healthcare.</p>
+        <p>The SMAA website was designed with accessibility as the main priority. The website is compliant with the WCAG 2.1 AA guidelines, a standard that less than 2% of modern websites meet.</p>
     </section>
     <section id="links">
         <h2>Links</h2>

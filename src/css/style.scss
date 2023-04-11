@@ -1,38 +1,48 @@
 @use 'variables' as *;
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-body{
-    background: $background;
+body {
+	background: $background;
+	color: $color;
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: $line-height;
+	margin: 20px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.btn {
+	$gradient-end: scale-color($action-color, $lightness: -60%);
+
+    background: linear-gradient($action-color, $gradient-end);
+	border-radius: 8px;
     color: $color;
-    font-family: $font-family;
-    font-size: $font-size;
-    line-height: $line-height;
-    margin: 20px;
+    text-decoration: none;
+
+	&:hover {
+		background: linear-gradient($gradient-end, $action-color);
+	}
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+h1,
+h2,
+h3,
+h4 {
+	text-align: center;
 }
 
-.btn{
-    background-color: green;
-    border-radius: 8px;
-    margin: 5px;
-}
-
-h1, h2, h3, h4{
-    text-align: center;
-}
-
-p{
-    margin: auto;
-    max-width: 80%;
-    width: 1000px;
+p {
+	margin: auto;
+	max-width: 80%;
+	width: 1000px;
 }
