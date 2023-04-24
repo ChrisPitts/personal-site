@@ -24,14 +24,19 @@ body {
 .btn {
 	$gradient-end: scale-color($action-color, $lightness: -60%);
 
-    background: linear-gradient($action-color, $gradient-end);
+	background: linear-gradient($action-color, $gradient-end);
 	border-radius: 8px;
-    color: $color;
-    text-decoration: none;
+	color: $color;
+	text-decoration: none;
 
 	&:hover {
 		background: linear-gradient($gradient-end, $action-color);
 	}
+}
+
+.emphasized{
+	color: $emphasis-color;
+    font-weight: bold;
 }
 
 h1,
@@ -44,5 +49,10 @@ h4 {
 p {
 	margin: auto;
 	max-width: 80%;
+	text-indent: 3rem;
 	width: 1000px;
+}
+
+section{
+	padding: 2rem 0;
 }

@@ -13,7 +13,10 @@
 	</section>
 	<section id="audits">
 		<h2>Want a Free Accessibility Audit?</h2>
-		<p></p>
+		<p>
+			As part of my mission to make the web more accessible, I offer
+			<span class="emphasized">FREE</span> accessibility audits.
+		</p>
 	</section>
 	<section id="skills">
 		<h2>Skills</h2>
